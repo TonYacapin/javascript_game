@@ -3,13 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Click the Circle Game</title>
+  <title>Game Dev Tycoon</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Click the Circle!</h1>
-  <p>Score: <span id="score">0</span></p>
-  <div id="circle"></div>
+  <h1>Game Dev Tycoon</h1>
+  <p>Cash: $<span id="cash">0</span></p>
+  <p>Games Developed: <span id="games">0</span></p>
+  <p>Auto Developers: <span id="devs">0</span></p>
+  <p>Game Price: $<span id="price">10</span></p>
+
+  <button id="developBtn">Develop Game</button>
+  <button id="hireBtn">Hire Developer ($100)</button>
+  <button id="upgradePriceBtn">Upgrade Game Price ($200)</button>
+  <button id="marketingBtn">Launch Marketing ($500)</button>
+
+  <p id="message"></p>
 
   <script src="script.js"></script>
 </body>
